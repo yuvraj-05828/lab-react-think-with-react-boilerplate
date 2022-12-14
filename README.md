@@ -202,12 +202,13 @@ npm start`
 To run it just go to open the console and go the the application directory and just type `npm start`
 
 #### Task:
-Your task is to render `hello Kalvium` --> h3 tag,  using this method.
+Your task is to display `hello Kalvium` -->  using this method.
 
 ## Submission
 
 If you didn't add, commit and push the changes you made, this is the last call. :smile:
 
+For each part - create a new repository.
 please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
 
 ## Summary
