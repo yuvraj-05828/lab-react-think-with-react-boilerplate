@@ -9,16 +9,6 @@ In this exercise, the goal is to apply as many as possible of the concepts you'v
 - when and how to setup react in your application,
 - ways of using react.
 
-## Getting started
-
-1. Fork this repo
-2. Clone this repo
-
-Whenever you create a first significant change, you should make your first commit.
-
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
-
-In the end of this document, you will find guidelines on how to submit the exercise.
 
 ### Introduction
 
@@ -27,25 +17,12 @@ In this exercise, you will try to setup the react application. As you can see re
 We will divide our work into three parts:
 
 - part I - Include react library in your html file
-- part II - By using npm/yarn
+- part II - Use JSX and babel compiler
+- Part III - Use CREATE REACT APP
 
 So let's get started!
 
-## Part I - Include react library in your html file
-
-It might seem like a joke, but this is our goal in this iteration:
-
-The very first step is deciding **how to add react to the html page**. Do you remember how to include javascript in your html? As you can see, React is not a framework, It's a very simple and powerful javascript library to create reusable UI components. Since it is a javascript library, we can add it in the same way like javascript. To include the react library please include the following code in your index.html file.
-
-```index.html
-    <!-- Load the React Library  -->
-    <!-- React and React DOM -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-```
-
-Our recommendation is to try to keep it as simple as possible. Try to identify the ways to setup react library.
-
+## part I
 #### REACT 1 | `LET'S START UP`
 
 Your task in this iteration is just to finish the react setup. To do this, let's use the same html file what we created and create a div with an id called react container.
@@ -76,7 +53,7 @@ Your task in this iteration is to check whether you have successfully setup reac
 ```
 const container = document.getElementById('react-container');
 ```
-Now the most important step, How to make a difference between Javascript and React. You might have learnt about ReactDOM in your code along session. ReactDOM is the place where you render the output. Now how to render using ReactDOM. Kindly look into the code snippet given below.
+Now the most important step, How to make a difference between Javascript and React. ReactDOM is the place where you render the output. Now how to render using ReactDOM. Kindly look into the code snippet given below.
 
 ```
 ReactDOM.render("Hello! Welcome to React",container);
@@ -93,10 +70,11 @@ This is going to be our output.
 ![Image description](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-lab-installation.png)
 
 To get the above it is quite simple. Check the code snippet given below. There is no modification required in the index.html.
-**React.createElement has three attributes (component,props,children)**
-**Component can be a react component - reusable piece of UI.
-**Props are properties of the component or element.
-**children can be a nested component or html element.
+React.createElement has three attributes (component,props,children) 
+Component can be a react component - reusable piece of UI.
+Props are properties of the component or element.
+children can be a nested component or html element.
+
 **In the below code when you check the react element it has a `div` tag followed by null and a string called `Hey Kalvians! Welcome to React Learning`. The `div` tag refers to the component. null refers to the property and the statement is the children. When you inspect the element you can see a output similar to this. The next `div` tag is the children.**
 ![Image description](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-installation-two.png)
 
@@ -112,12 +90,12 @@ const container = document.getElementById('react-container');
 ReactDOM.render(React.createElement(Container),container);
 ```
 
-#### REACT 3 | NOW IT'S CLASS TIME
+#### REACT 4 | NOW IT'S CLASS TIME
 
 Now in this iteration we will try working with the class component. To define a class component. We are going to replicate the same output what we got in function component.
 Check the code snippet below. Replace the above code instead of functional components and you can see that it should print
 
-Hey ProGrads
+Hey Kalvians
 Let's rock and roll
 
 ```
@@ -146,13 +124,13 @@ However, React also offers an option to use JSX instead.JSX stands for Javascrip
 
 So far whatever we have used we did it directly without the use of Babel compiler. Babel is a very powerful javascript complier which converts react script to Browser acceptable Javascript. As you have learnt that react uses `virtual dom` and babel helps to transpile to browser javascript.
 
-The quickest way to try JSX in your project is to add this <script> tag to your page:
+The quickest way to try JSX in your project is to add this `<script>` tag to your page:
 
 ```
     <!-- Include babel compiler -->
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ```
-Now you can use JSX in any <script> tag by adding type="text/babel" attribute to it. 
+Now you can use JSX in any ```<script>``` tag by adding ```type="text/babel"``` attribute to it. 
 
 ```
     class ReactContainer extends React.Component{
@@ -177,7 +155,6 @@ Your output should look something like this:
 
 Isn't the above one so easy. So instead of too many React.createElement you can use JSX which is super cool to use.
 
-
 ## Part III - CREATE REACT APP
 create-react-app is a project aimed at getting you up to speed with React in no time. It provides a ready-made React application starter, so you can dive into building your app without having to deal with Webpack and Babel configurations.
 
@@ -190,7 +167,7 @@ IV. Ready for ES6+ syntax
 V. Bundles all your JavaScript and assets
 VI. Comes with CSS autoprefixer, SASS and CSS Modules support
 
-When you run npx create-react-app <app-name>, npx is going to download the most recent create-react-app release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you’re getting the latest and greatest code available.
+When you run npx create-react-app `<app-name>`, npx is going to download the most recent create-react-app release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you’re getting the latest and greatest code available.
 
 To create the app  : 
 `npx create-react-app first-react-app`
@@ -199,17 +176,13 @@ To run the app :
 `cd first-react-app
 npm start`
 
-To run it just go to open the console and go the the application directory and just type `npm start`
+To run it open the console and go the application directory, and just type `npm start`
 
-#### Task:
 Your task is to display `hello Kalvium` -->  using this method.
 
-## Submission
+## How To Submit
 
-If you didn't add, commit and push the changes you made, this is the last call. :smile:
-
-For each part - create a new repository.
-please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
+For each part - create a new repository and share your GitHub links in this [form](https://docs.google.com/forms/d/1FsIKaMGG8g_xISwHg0oGVQJpgHCXVRQGSQmpytu-b_o/viewform?usp=pp_url&entry.1483932328=CSK101-M4-L120).
 
 ## Summary
 
@@ -217,5 +190,4 @@ In this exercise, you've learnt various ways of setting up react in your system.
 
 This concludes the React setup. We are proud of you!
 
-Happy Coding Kalvium ❤️!
-
+Happy Coding ❤️!
