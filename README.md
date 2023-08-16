@@ -156,7 +156,7 @@ Your output should look something like this:
 Isn't the above one so easy. So instead of too many React.createElement you can use JSX which is super cool to use.
 
 ## Part III - CREATE REACT APP
-create-react-app is a project aimed at getting you up to speed with React in no time. It provides a ready-made React application starter, so you can dive into building your app without having to deal with Webpack and Babel configurations.
+This is a project aimed at getting you up to speed with React in no time. It provides a ready-made React application starter, so you can dive into building your app without having to deal with Webpack and Babel configurations.
 
 It provides out of the box:
 
@@ -167,22 +167,31 @@ IV. Ready for ES6+ syntax
 V. Bundles all your JavaScript and assets
 VI. Comes with CSS autoprefixer, SASS and CSS Modules support
 
-When you run npx create-react-app `<app-name>`, npx is going to download the most recent create-react-app release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you’re getting the latest and greatest code available.
+When you run npm create vite@latest  `<app-name>`, npm is going to download the most recent release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you’re getting the latest and greatest code available.
 
 To create the app  : 
-`npx create-react-app first-react-app`
+```
+npm create vite@latest <your-react-app-name>
+```
 
-To run the app : 
-`cd first-react-app
-npm start`
+Then choose **react** framework and then **javascript** option and enter.
 
-To run it open the console and go the application directory, and just type `npm start`
+
+To run it open the console and go to the application directory 
+``` 
+cd first-react-app 
+```
+, and just type 
+
+``` 
+npm start 
+```
 
 Your task is to display `hello Kalvium` -->  using this method.
 
-## How To Submit
+## How to submit
 
-For each part - create a new repository and share your GitHub links in this [form](https://docs.google.com/forms/d/1FsIKaMGG8g_xISwHg0oGVQJpgHCXVRQGSQmpytu-b_o/viewform?usp=pp_url&entry.1483932328=CSK101-M4-L120).
+For each part - create a new repository and share your GitHub links as instructed in assignment.
 
 ## Summary
 
