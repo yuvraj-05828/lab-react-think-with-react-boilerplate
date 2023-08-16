@@ -17,7 +17,9 @@ In this exercise, you will try to setup the react application. As you can see re
 We will divide our work into three parts:
 
 - part I - Include react library in your html file
+
 - part II - Use JSX and babel compiler
+
 - Part III - CREATE REACT APP
 
 So let's get started!
@@ -161,10 +163,15 @@ This is a project aimed at getting you up to speed with React in no time. It pro
 It provides out of the box:
 
 I. A development server with hot reloading
+
 II. Provides a testing environment with Jest
+
 III. Allows to build the React app
+
 IV. Ready for ES6+ syntax
+
 V. Bundles all your JavaScript and assets
+
 VI. Comes with CSS autoprefixer, SASS and CSS Modules support
 
 When you run npm create vite@latest  `<app-name>`, npm is going to download the most recent release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you’re getting the latest and greatest code available.
