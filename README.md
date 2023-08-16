@@ -18,7 +18,7 @@ We will divide our work into three parts:
 
 - part I - Include react library in your html file
 - part II - Use JSX and babel compiler
-- Part III - Use CREATE REACT APP
+- Part III - CREATE REACT APP
 
 So let's get started!
 
