@@ -186,7 +186,7 @@ Then choose **react** framework and then **javascript** option and enter.
 
 To run it open the console and go to the application directory 
 ``` 
-cd first-react-app 
+cd your-react-app-name 
 ```
 , and just type 
 
