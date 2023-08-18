@@ -191,7 +191,7 @@ cd first-react-app
 , and just type 
 
 ``` 
-npm start 
+npm run dev 
 ```
 
 Your task is to display `hello Kalvium` -->  using this method.
